@@ -82,7 +82,7 @@ function App() {
               I'm <strong>Hoang Son Lam</strong>- a Frontend Web Developer focused on creating immersive, accessible, and performant web applications.
             </p>
             <div style={{ display: 'flex', gap: '1rem' }}>
-              <a href="/lamhoangson.pdf" download className="btn-primary">
+              <a href="lamhoangson.pdf" download className="btn-primary">
                 <Download size={20} /> Download CV
               </a>
               <a href="https://github.com/HSL-2003" target="_blank" rel="noreferrer" className="btn-outline">
@@ -115,7 +115,7 @@ function App() {
 
 
               {<img
-                src="/59991.jpg"
+                src="59991.jpg"
                 alt="Hoang Son Lam"
                 style={{
                   width: '100%',
@@ -172,7 +172,7 @@ function App() {
           <h2>Certificates</h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '2rem' }}>
             <CertificateCard
-              imgSrc="/co1.jpg"
+              imgSrc="co1.jpg"
               title="Academic Skills For University Success"
               issuer="Coursera"
               date="2022"
@@ -180,42 +180,42 @@ function App() {
 "
             />
             <CertificateCard
-              imgSrc="/co2.jpg"
+              imgSrc="co2.jpg"
               title="Project Management Principles and Practices"
               issuer="Coursera"
               date="2024"
               desc="Learned core project management concepts such as project planning, scheduling, risk management, teamwork, and stakeholder communication."
             />
             <CertificateCard
-              imgSrc="/co3.jpg"
+              imgSrc="co3.jpg"
               title="User Experience Research and Design"
               issuer="Coursera"
               date="2024"
               desc="Gained knowledge in UX research, user-centered design, usability testing, wireframing, and improving user experience through data-driven design decisions."
             />
             <CertificateCard
-              imgSrc="/co4.jpg"
+              imgSrc="co4.jpg"
               title="CertNexus Certified Ethical Emerging Technologist"
               issuer="Coursera"
               date="2023"
               desc="Understood ethical issues in emerging technologies, including data privacy, cybersecurity basics, AI ethics, and responsible technology use."
             />
             <CertificateCard
-              imgSrc="/co5.jpg"
+              imgSrc="co5.jpg"
               title="Basic Of Web Development & Coding"
               issuer="Coursera"
               date="2023"
               desc="Learned the fundamentals of web development, including HTML, CSS, basic JavaScript, and core concepts of building simple and responsive websites."
             />
             <CertificateCard
-              imgSrc="/co6.jpg"
+              imgSrc="co6.jpg"
               title="Computer Communication"
               issuer="Coursera"
               date="2022"
               desc="Studied computer communication concepts such as data transmission, network models, protocols, and basic networking principles."
             />
             <CertificateCard
-              imgSrc="/co8.jpg"
+              imgSrc="co8.jpg"
               title="Software Development Lifecycle"
               issuer="Coursera"
               date="2023"
@@ -238,7 +238,7 @@ function App() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '2rem' }}>
             <ProjectCard
               link="https://bilco-manage-tna5.vercel.app/"
-              imgSrc="/bilco.jpg"
+              imgSrc="bilco.jpg"
               title="Bilco Management System"
               desc="A Web Application for Bilco Management System"
               tags={['React', 'Three.js', '.Net Core']}
@@ -246,7 +246,7 @@ function App() {
             />
             <ProjectCard
               link="https://ohm-lab-management-system.vercel.app/"
-              imgSrc="/ohmlab.jpg"
+              imgSrc="ohmlab.jpg"
               title="Ohmlab Electronics Lab"
               desc="A Web Application for Ohmlab Electronics Lab to manage the lab and schedule"
               tags={['Next.js', 'Tailwind CSS']}
@@ -277,9 +277,9 @@ function App() {
           </a>
 
           <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', flexWrap: 'wrap' }}>
-            <SocialLink href="https://github.com" icon={<Github size={24} />} />
-            <SocialLink href="https://facebook.com" icon={<Facebook size={24} />} />
-            <SocialLink href="https://instagram.com" icon={<Instagram size={24} />} />
+            <SocialLink href="https://github.com/HSL-2003" icon={<Github size={24} />} />
+            <SocialLink href="https://www.facebook.com/hoang.son.lam.446973/" icon={<Facebook size={24} />} />
+            <SocialLink href="https://www.instagram.com/hslaaam/" icon={<Instagram size={24} />} />
           </div>
 
           <footer style={{ marginTop: '4rem', fontSize: '0.875rem', opacity: 0.5 }}>
